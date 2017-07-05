@@ -1,0 +1,19 @@
+group 'sandbox'
+version '1.0-SNAPSHOT'
+
+defaultTasks 't2'
+
+task t1 {
+    println "Hi, I am t1"
+}
+
+task t2 {
+    println "Hi, I am t2"
+}
+
+task t3 {
+    println "Hi, I am t3"
+}
+
+
+
